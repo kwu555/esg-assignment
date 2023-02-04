@@ -20,7 +20,7 @@ public class CustomerDetailController {
 
     @PostMapping
     public ResponseEntity<CustomerDto> createNewCustomer(@Valid @RequestBody CustomerDto dto){
-        return new ResponseEntity<>(customerService.addCustomer(dto), HttpStatus.OK);
+        return new ResponseEntity<>(customerService.addCustomer(dto), HttpStatus.CREATED);
     }
 
 
