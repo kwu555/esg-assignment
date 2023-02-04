@@ -1,0 +1,2 @@
+insert into customer (id, customer_ref, customer_name, address_line1, address_line2, town, county, country, postcode)
+values (id_seq.nextval,'123','Test','Address 1','Address 2','Town','County','Country','NN333NN');
