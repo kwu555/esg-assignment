@@ -21,7 +21,7 @@ class CustomerDataApiServiceTest {
         //given
 
         // when
-        CustomerDto response = customerService.createNewCustomer(CustomerDto dto);
+        boolean response = customerService.createNewCustomer(null);
 
         // then
         assertNotNull(response);
@@ -34,7 +34,7 @@ class CustomerDataApiServiceTest {
         //given
 
         // when
-        CustomerDto response = customerService.createNewCustomer(CustomerDto dto);
+        boolean response = customerService.createNewCustomer(null);
 
         // then
         assertNull(response);

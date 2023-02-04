@@ -17,7 +17,7 @@ class FileProcessorTest {
         // given
 
         // when
-        assertTrue(processor.exeucte());
+        assertTrue(processor.execute());
         // then
     }
 
@@ -26,7 +26,7 @@ class FileProcessorTest {
         // given
 
         // when
-        assertFalse(processor.exeucte());
+        assertFalse(processor.execute());
 
         // then
     }

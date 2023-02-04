@@ -20,7 +20,7 @@ class FileProcessorSchedulerTest {
     void testScheduler(){
 
         await().atMost(TWO_SECONDS)
-                .untilAsserted(() -> verify(scheduler, atLeast(2)).processCustomerFile());
+                .untilAsserted(() -> verify(scheduler, atLeast(2)).readAndExecute());
     }
 
 }

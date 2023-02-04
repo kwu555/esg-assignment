@@ -8,9 +8,9 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @ExtendWith(SpringExtension.class)
-class FileHelperTest {
+class FileLocatorTest {
 
-    FileHelper helper = new FileHelper();
+    FileLocator helper = new FileLocator();
 
     @Test
     void testReadFileMethod(){
