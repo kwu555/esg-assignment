@@ -14,6 +14,9 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 @Slf4j
+/**
+ *  Customer Data API service, responsible for persisting new customer data
+ */
 public class CustomerDataApiService {
 
     @Autowired

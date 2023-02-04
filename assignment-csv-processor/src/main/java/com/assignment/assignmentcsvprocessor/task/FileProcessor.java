@@ -20,6 +20,10 @@ import java.util.stream.Stream;
 
 @Service
 @Slf4j
+/**
+ *  File Processor
+ *  Read data from CSV file line by line and pass data to data-api
+ */
 public class FileProcessor {
 
     @Autowired

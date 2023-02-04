@@ -12,6 +12,9 @@ import java.util.Date;
 @Component
 @Slf4j
 @EnableScheduling
+/**
+ *  scheduler to run file processor job
+ */
 public class FileProcessorScheduler {
 
     @Autowired
